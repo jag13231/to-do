@@ -1,0 +1,57 @@
+body{
+    background: #FACD3E;
+    display: grid;
+    place-items: center;
+}
+.main_container{
+width: 667px;
+height: 899px;
+border: 3px solid black;
+border-radius: 22px;
+background: #ffffff;
+
+}
+.main_container h1{
+    margin-left: 50px;
+}
+.task_container{
+    width: 577px;
+    height: 52px;
+    margin-left: 50px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task_container input{
+    width:501px;
+    height: 50px;
+    border-radius:15px ;
+}
+.task_container button{
+    width:52px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #FACD3E;
+    border-radius: 7px;
+    border: none;
+}
+.tasks{
+    width: 500px;
+    margin-top: 38px;
+    margin-left: 50px;
+    background-color: #ffffff;
+  
+
+}
+.tasks li{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.tasks button{
+    border: none;
+    color: red;
+}
+
